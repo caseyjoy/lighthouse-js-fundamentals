@@ -13,7 +13,7 @@ const finalPosition = function (moves) {
         y--;
         break;
       case 'east':
-        x++
+        x++;
         break;
       case 'west':
         x--;
@@ -23,6 +23,5 @@ const finalPosition = function (moves) {
 
   return [x, y];
 }
-
 
 finalPosition(moves);
